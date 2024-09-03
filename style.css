@@ -5,4 +5,13 @@
 
 body {
     font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #9A4376, #C54577);
+    height: 100vh;
+}
+
+.container{
+    margin:auto;
+    background-color: white;
+    width: 400px;
+    height: 600px;
 }
