@@ -7,6 +7,9 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, #9A4376, #C54577);
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .container{
@@ -15,3 +18,8 @@ body {
     width: 400px;
     height: 600px;
 }
+
+.register-form h2 {
+    text-align: center;
+}
+

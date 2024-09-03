@@ -7,9 +7,54 @@
 </head>
 <body>
     <div class="container">
-        <div class="register-form">
+        <form class="register-form">
             <h2>Register Form</h2>
-        </div>
+            
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="text" id="birthday" name="birthday" placeholder="dd/mm/yyyy" required>
+            </div>
+            
+            <div class="form-group gender-group">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose option</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
     </div>
 </body>
 </html>
