@@ -15,11 +15,25 @@ body {
 .container{
     margin:auto;
     background-color: white;
-    width: 400px;
-    height: 600px;
+    width: auto;
+    height: auto;
+    padding: 4rem;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .register-form h2 {
     text-align: center;
+}
+
+.form-group-name ,.form-group-dateGender,.form-group-contact{
+    display: flex;
+    /* flex: 1 1 50%; */
+    flex-direction: row;
+    gap: 1em;
 }
 
