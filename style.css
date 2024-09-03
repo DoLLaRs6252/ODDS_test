@@ -70,3 +70,13 @@ body {
   margin-top: 15px;
 }
 
+button {
+  width: fit-content;
+  padding: 10px;
+  padding-inline: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
