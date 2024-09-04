@@ -29,6 +29,10 @@ body {
   gap: 1rem;
 }
 
+.register-form div {
+  flex: 1 1 100%; /* Allow each div to take full width */
+}
+
 .form-group-name,
 .form-group-dateGender,
 .form-group-contact {
@@ -44,6 +48,7 @@ body {
   color: #333;
 }
 
+.form-group input[type="date"],
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="tel"],
@@ -66,7 +71,6 @@ body {
 .gender-group {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
   margin-top: 15px;
 }
 
